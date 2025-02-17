@@ -1,0 +1,104 @@
+.body {
+  font-family: Arial, sans-serif;
+  width: 70vw;
+  height: 150vh;
+  background-repeat: none;
+  text-align: center;
+  padding: 10px;
+  background-image: url("https://files.oaiusercontent.com/file-1YkRid4oL8pDiLY9Gu3RF1?se=2025-02-17T04%3A33%3A10Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dc16a2498-8ac1-45f9-bd2f-9c2d0536ce28.webp&sig=NHg4SO63RFxVazgCLaBYOpdcLs2uBOzJmcMpf900kLY%3D");
+  margin: auto;
+  margin-top: -42px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading h2 {
+  font-size: 50px;
+  color: #021325;
+  box-shadow: 5px 5px 5px black
+}
+
+.input,
+.info_2,
+.button {
+  margin: 10px 0;
+}
+
+.input label,
+.info_2 label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.input input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.info_2 select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.graph {
+  width: 50vw;
+  margin: auto;
+  color: #021325;
+}
+
+.button button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button button:hover {
+  background-color: #021325;
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+.info {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  align-self: center;
+  text-align: start;
+  font-weight: 550;
+  margin-top: 30px;
+  background-image: url("https://th.bing.com/th?id=OIP.nSmhpdby3mkvCwWoDmLKfwHaE4&w=307&h=203&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+  width: 20vw;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+p {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+@media only screen and (max-width:1000px) {
+  .info {
+    font: 2px;
+    width: 70vw;
+  }
+
+  .info h3 {
+    font: 2px;
+  }
+}
